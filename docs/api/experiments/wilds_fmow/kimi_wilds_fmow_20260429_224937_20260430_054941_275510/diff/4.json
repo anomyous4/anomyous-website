@@ -1,0 +1,1 @@
+{"iteration":4,"prev_iteration":3,"diffs":[{"filename":"dummy_test/out.json","status":"modified","added_lines":1,"removed_lines":1,"diff":"--- a/dummy_test/out.json\n+++ b/dummy_test/out.json\n@@ -1 +1 @@\n-{\"predictions\": [4, 4, 4, 42, 4, 4, 49, 23, 4, 4, 11, 4, 4, 4, 59, 59, 4, 11, 4, 4]}\n+{\"predictions\": [4, 4, 4, 4, 4, 4, 11, 4, 4, 4, 11, 4, 4, 4, 4, 4, 4, 47, 4, 4]}"}]}

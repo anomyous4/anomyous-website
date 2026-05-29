@@ -1,0 +1,1 @@
+{"path":"model.py","iteration":2,"content":"import torch\nimport timm\n\ndef get_model():\n    model = timm.create_model('vit_base_patch16_clip_224.openai', pretrained=True, num_classes=0)\n    return model\n"}

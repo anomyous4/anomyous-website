@@ -1,0 +1,1 @@
+{"path":"merge_and_eval.py","iteration":16,"content":"import os, shutil\nsrc = 'checkpoints_boost2'\ndst = 'checkpoints'\nfor f in os.listdir(src):\n    if f.endswith('.best.zip'):\n        env = f.replace('.best.zip','')\n        sp = os.path.join(src, f)\n        dp = os.path.join(dst, env + '.zip')\n        shutil.copy(sp, dp)\n        print(f'copied {sp} -> {dp}')\n"}

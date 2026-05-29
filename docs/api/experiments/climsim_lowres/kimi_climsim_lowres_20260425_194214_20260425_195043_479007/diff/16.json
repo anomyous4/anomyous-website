@@ -1,0 +1,1 @@
+{"iteration":16,"prev_iteration":15,"diffs":[{"filename":"ensemble_config.json","status":"added","added_lines":1,"removed_lines":0,"diff":"--- a/ensemble_config.json\n+++ b/ensemble_config.json\n@@ -0,0 +1 @@\n+{\"checkpoints\": [\"checkpoints/best.pt\", \"checkpoints/resmlp.pt\", \"checkpoints/model_c.pt\"]}"}]}

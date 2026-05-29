@@ -1,0 +1,1 @@
+{"path":"inspect_checkpoint.py","iteration":14,"content":"import torch\nimport sys\n\nckpt = torch.load('checkpoints/best.pt', map_location='cpu', weights_only=False)\nprint('=== Model Config ===')\nprint(ckpt['model_config'])\nprint()\nprint('=== State Dict Keys ===')\nfor k in sorted(ckpt['model_state_dict'].keys()):\n    print(k)\n"}

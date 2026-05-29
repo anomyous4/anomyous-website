@@ -1,0 +1,1 @@
+{"path":"av/bitstream.pxd","iteration":24,"content":"cimport libav as lib\n\nfrom av.packet cimport Packet\n\n\ncdef class BitStreamFilterContext:\n\n    cdef lib.AVBSFContext *ptr\n\n    cpdef filter(self, Packet packet=?)\n    cpdef flush(self)\n"}

@@ -1,0 +1,1 @@
+{"path":"sanity_test/out.json","iteration":3,"content":"{\"predictions\": [{\"id\": \"sanity/0\", \"completion\": \"No print statements, explanations, or additional comments. def add(a, b):\\n    return a + b\"}]}"}

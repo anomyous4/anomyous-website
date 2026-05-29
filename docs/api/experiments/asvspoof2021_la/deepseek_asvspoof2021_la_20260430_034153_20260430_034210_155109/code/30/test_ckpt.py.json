@@ -1,0 +1,1 @@
+{"path":"test_ckpt.py","iteration":30,"content":"import torch\nckpt = torch.load('checkpoints/best.pt', map_location='cpu')\nprint(list(ckpt.keys()))\nif 'model_state_dict' in ckpt:\n    print('model_state_dict found')\nelse:\n    print('direct state_dict')\n"}

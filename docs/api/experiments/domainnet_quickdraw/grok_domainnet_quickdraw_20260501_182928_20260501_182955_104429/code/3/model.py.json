@@ -1,0 +1,1 @@
+{"path":"model.py","iteration":3,"content":"import torch.nn as nn\nimport timm\n\nclass Classifier(nn.Module):\n    def __init__(self, num_classes=345):\n        super().__init__()\n        self.backbone = timm.create_model('vit_base_patch16_224.augreg_in1k', pretrained=True, num_classes=num_classes)\n    def forward(self, x):\n        return self.backbone(x)"}

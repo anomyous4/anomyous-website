@@ -1,0 +1,1 @@
+{"iteration":9,"data":[{"step":0,"train_limit":7000000,"val_limit":400000,"ptend_t":2.0,"ptend_q":12.0,"rad":0.5,"precip":2.0,"rest":0.5},{"step":1,"mean_r2":0.2878728814744199,"val_mse":0.006192291155457497,"r2_ptend_t":0.41476121931476223,"r2_ptend_q":0.1094927787089481,"r2_radiation":0.9125921630126383,"r2_precipitation":0.337808872120965,"r2_rest":0.7229217192589823}]}

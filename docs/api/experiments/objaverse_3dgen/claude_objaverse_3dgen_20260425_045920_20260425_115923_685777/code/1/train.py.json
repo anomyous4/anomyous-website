@@ -1,0 +1,1 @@
+{"path":"train.py","iteration":1,"content":"# Placeholder train.py - TripoSR is used as-is (pretrained)\n# No fine-tuning needed for baseline\nprint('Using pretrained TripoSR model - no training required')\n"}

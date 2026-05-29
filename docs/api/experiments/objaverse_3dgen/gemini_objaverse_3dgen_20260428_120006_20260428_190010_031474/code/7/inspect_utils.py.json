@@ -1,0 +1,1 @@
+{"path":"inspect_utils.py","iteration":7,"content":"import sys\nimport inspect\n\nsys.path.insert(0, '/opt/triposr')\nimport tsr.utils\n\nfor name, obj in inspect.getmembers(tsr.utils):\n    if inspect.isfunction(obj):\n        print(f'=== {name} ===')\n        try:\n            print(inspect.getsource(obj))\n        except Exception as e:\n            print(e)\n"}

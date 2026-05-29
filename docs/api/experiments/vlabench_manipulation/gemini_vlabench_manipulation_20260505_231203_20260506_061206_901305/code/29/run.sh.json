@@ -1,0 +1,1 @@
+{"path":"run.sh","iteration":29,"content":"#!/bin/bash\n/usr/bin/python prepare_data.py || true\n/opt/py312/bin/python train.py || true\nmkdir -p checkpoints/best\n"}

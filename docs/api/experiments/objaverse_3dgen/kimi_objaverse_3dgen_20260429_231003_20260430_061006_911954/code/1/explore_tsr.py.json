@@ -1,0 +1,1 @@
+{"path":"explore_tsr.py","iteration":1,"content":"import sys\nsys.path.insert(0, '/opt/triposr')\nfrom tsr.system import TSR\nimport inspect\nprint('=== TSR.render signature ===')\nprint(inspect.signature(TSR.render))\nprint('=== TSR.render source ===')\nprint(inspect.getsource(TSR.render))\n"}

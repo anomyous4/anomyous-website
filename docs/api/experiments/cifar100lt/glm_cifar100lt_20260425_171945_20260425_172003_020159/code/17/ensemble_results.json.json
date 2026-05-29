@@ -1,0 +1,1 @@
+{"path":"ensemble_results.json","iteration":17,"content":"{\n  \"best_weights\": [\n    0.32,\n    0.34,\n    0.34\n  ],\n  \"best_bal_acc\": 0.853,\n  \"best_temps\": [\n    0.9,\n    1.5,\n    1.5\n  ],\n  \"best_temp_bal_acc\": 0.8580000000000001,\n  \"best_alpha\": -0.2999999999999985,\n  \"best_adj_bal_acc\": 0.8640000000000002\n}"}

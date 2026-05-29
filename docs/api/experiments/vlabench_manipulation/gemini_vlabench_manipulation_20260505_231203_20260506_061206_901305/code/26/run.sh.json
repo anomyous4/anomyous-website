@@ -1,0 +1,1 @@
+{"path":"run.sh","iteration":26,"content":"rm -rf /workspace/lerobot /workspace/av /workspace/mergedeep /workspace/draccus /workspace/mypy_extensions.py /workspace/typing_inspect.py\npython prepare_data.py\n/opt/py312/bin/python train.py\n"}

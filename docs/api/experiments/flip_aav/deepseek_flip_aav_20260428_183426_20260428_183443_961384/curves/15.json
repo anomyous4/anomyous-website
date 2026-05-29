@@ -1,0 +1,1 @@
+{"iteration":15,"data":[{"epoch":1,"train_loss":0.680961332406763,"val_spearman":0.8903100411184082,"lr":1e-05},{"epoch":2,"train_loss":0.5971278290585811,"val_spearman":0.8893274268618359,"lr":1e-05}]}

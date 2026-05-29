@@ -1,0 +1,1 @@
+{"iteration":19,"prev_iteration":18,"diffs":[{"filename":"check_train.py","status":"added","added_lines":2,"removed_lines":0,"diff":"--- a/check_train.py\n+++ b/check_train.py\n@@ -0,0 +1,2 @@\n+s=open('train.py').read()\n\n+print(s)\n"}]}

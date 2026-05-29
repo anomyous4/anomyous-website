@@ -1,0 +1,1 @@
+{"path":"model.py","iteration":5,"content":"import timm\n\ndef get_model(num_classes=10, pretrained=True, drop_rate=0.0):\n    model = timm.create_model('vit_base_patch16_clip_224.openai', pretrained=pretrained, num_classes=num_classes, drop_rate=drop_rate)\n    return model"}

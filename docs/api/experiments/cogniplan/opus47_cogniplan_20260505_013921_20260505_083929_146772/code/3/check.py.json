@@ -1,0 +1,1 @@
+{"path":"check.py","iteration":3,"content":"with open('predict.py') as f: print(f.read())"}

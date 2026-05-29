@@ -1,0 +1,1 @@
+{"path":"run.sh","iteration":5,"content":"#!/bin/bash\nset -e\npython init_adapter.py\npython master.py\npython merge.py\n"}

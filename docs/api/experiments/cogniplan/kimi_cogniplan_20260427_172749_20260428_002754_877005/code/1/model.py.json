@@ -1,0 +1,1 @@
+{"path":"model.py","iteration":1,"content":"import torch.nn as nn\n\nclass DummyModel(nn.Module):\n    def __init__(self):\n        super().__init__()\n        self.linear = nn.Linear(10, 1)\n    def forward(self, x):\n        return self.linear(x)\n"}

@@ -1,0 +1,1 @@
+{"path":"test_import.py","iteration":9,"content":"print('python ok', flush=True)\nimport torch\nprint('torch', torch.__version__, flush=True)\nprint('cuda', torch.cuda.is_available(), flush=True)\nx = torch.zeros(5, 3)\nidx = torch.tensor([0,1,0,1,2])\nout = torch.zeros(3, 3)\nout.index_add_(0, idx, x)\nprint('index_add ok', flush=True)\n"}

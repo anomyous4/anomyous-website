@@ -1,0 +1,1 @@
+{"iteration":9,"data":[{"step":1,"val_acc":0.824},{"step":10,"val_acc":0.8766},{"step":100,"val_acc":0.9046},{"step":250,"val_acc":0.9152},{"step":500,"val_acc":0.9154},{"step":1000,"val_acc":0.9186},{"step":2500,"val_acc":0.9178},{"step":5000,"val_acc":0.9148},{"step":10000,"val_acc":0.9126}]}

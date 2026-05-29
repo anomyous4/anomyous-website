@@ -1,0 +1,1 @@
+{"path":"check_trl.py","iteration":6,"content":"#!/usr/bin/env python3\nimport trl\nimport inspect\nprint('TRL version:', trl.__version__)\nfrom trl import GRPOConfig, GRPOTrainer\nprint('GRPOConfig params:', [p for p in inspect.signature(GRPOConfig.__init__).parameters.keys()])\n"}

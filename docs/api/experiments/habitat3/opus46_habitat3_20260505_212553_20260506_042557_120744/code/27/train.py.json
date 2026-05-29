@@ -1,0 +1,1 @@
+{"path":"train.py","iteration":27,"content":"import os, torch\nos.makedirs('checkpoints/baseline', exist_ok=True)\nparams = {\n    'controller': 'simple_pursuit',\n    'version': 7,\n}\ntorch.save({'params': params}, 'checkpoints/baseline/model.pt')\nprint('Saved checkpoint')\n"}

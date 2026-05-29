@@ -1,0 +1,1 @@
+{"path":"train.py","iteration":2,"content":"import os\nimport torch\nos.makedirs('checkpoints/baseline', exist_ok=True)\nmodel = torch.nn.Linear(2, 2)\ntorch.save({'model_state_dict': model.state_dict(), 'policy_type': 'heuristic'}, 'checkpoints/baseline/model.pt')\nprint('Dummy heuristic checkpoint saved to checkpoints/baseline/model.pt')"}

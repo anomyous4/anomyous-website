@@ -1,0 +1,1 @@
+{"path":"train.py","iteration":1,"content":"import os, shutil\n\ndef main():\n    os.makedirs('checkpoints', exist_ok=True)\n    src = '/models/triposr'\n    dst = 'checkpoints/triposr'\n    if os.path.exists(dst):\n        shutil.rmtree(dst)\n    shutil.copytree(src, dst)\n    print('Checkpoint saved to checkpoints/triposr')\n\nif __name__ == '__main__':\n    main()\n"}

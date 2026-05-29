@@ -1,0 +1,1 @@
+{"path":"train.py","iteration":1,"content":"import os\nimport torch\n\nprint('Using pretrained TripoSR model - no training required for baseline.')\nos.makedirs('checkpoints', exist_ok=True)\ntorch.save({'model': 'triposr_pretrained', 'description': 'Baseline using TripoSR from /models/triposr'}, 'checkpoints/best.pt')\nprint('Dummy checkpoint saved to checkpoints/best.pt')"}

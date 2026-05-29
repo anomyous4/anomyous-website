@@ -1,0 +1,1 @@
+{"path":"sanity_test3/test_prompts.jsonl","iteration":5,"content":"{\"id\":\"x0\",\"prompt\":\"Write a function add(a, b) that returns their sum.\",\"starter_code\":\"def add(a, b):\",\"entry_point\":\"add\"}\n"}

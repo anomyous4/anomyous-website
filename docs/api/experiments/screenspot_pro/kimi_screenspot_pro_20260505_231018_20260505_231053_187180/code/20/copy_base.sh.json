@@ -1,0 +1,1 @@
+{"path":"copy_base.sh","iteration":20,"content":"#!/bin/bash\nset -e\nrm -rf checkpoints/base_model\ncp -r /data/base_model/Qwen2.5-VL-3B-Instruct checkpoints/base_model\necho \"Base model copied to checkpoints/base_model\"\n"}

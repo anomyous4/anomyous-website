@@ -1,0 +1,1 @@
+{"path":"read_full_predict.py","iteration":25,"content":"with open('predict.py', 'r') as f:\n    lines = f.readlines()\n\n# Print in chunks to avoid truncation\nfor i, line in enumerate(lines):\n    print(f'{i:4d}: {line}', end='')\n"}

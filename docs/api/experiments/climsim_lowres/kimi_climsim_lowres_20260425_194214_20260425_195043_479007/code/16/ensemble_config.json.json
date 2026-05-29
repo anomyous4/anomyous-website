@@ -1,0 +1,1 @@
+{"path":"ensemble_config.json","iteration":16,"content":"{\"checkpoints\": [\"checkpoints/best.pt\", \"checkpoints/resmlp.pt\", \"checkpoints/model_c.pt\"]}"}

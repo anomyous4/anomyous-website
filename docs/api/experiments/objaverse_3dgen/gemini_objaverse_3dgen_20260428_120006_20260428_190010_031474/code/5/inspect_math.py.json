@@ -1,0 +1,1 @@
+{"path":"inspect_math.py","iteration":5,"content":"import sys\nimport inspect\n\nsys.path.insert(0, '/opt/triposr')\nfrom tsr.system import TSR\nimport tsr.utils\n\nprint('=== TSR.render signature ===')\nprint(inspect.signature(TSR.render))\n\nprint('\\n=== get_spherical_cameras ===')\nprint(inspect.getsource(tsr.utils.get_spherical_cameras))\n"}

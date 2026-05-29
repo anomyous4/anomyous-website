@@ -1,0 +1,1 @@
+{"path":"ckpt/per_task/h1hand-sit_simple-v0/meta.json","iteration":8,"content":"{\n  \"task_id\": \"h1hand-sit_simple-v0\",\n  \"total_timesteps\": 400000,\n  \"n_envs\": 8,\n  \"seed\": 3000,\n  \"elapsed_sec\": 1528.4,\n  \"obs_space\": [\n    151\n  ],\n  \"action_space\": [\n    61\n  ],\n  \"resume\": true\n}"}

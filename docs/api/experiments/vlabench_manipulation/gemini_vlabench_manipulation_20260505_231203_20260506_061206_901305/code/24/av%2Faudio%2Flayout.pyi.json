@@ -1,0 +1,1 @@
+{"path":"av/audio/layout.pyi","iteration":24,"content":"from dataclasses import dataclass\n\nclass AudioLayout:\n    name: str\n    nb_channels: int\n    channels: tuple[AudioChannel, ...]\n    def __init__(self, layout: str | AudioLayout): ...\n\n@dataclass\nclass AudioChannel:\n    name: str\n    description: str\n"}

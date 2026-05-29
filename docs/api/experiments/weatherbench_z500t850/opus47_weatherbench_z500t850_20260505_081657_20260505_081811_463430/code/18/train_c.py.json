@@ -1,0 +1,1 @@
+{"path":"train_c.py","iteration":18,"content":"import os\nos.environ['EPOCHS']='14'\nos.environ['HIDDEN']='256'\nos.environ['NBLOCKS']='10'\nos.environ['SEED']='2'\nos.environ['EMA']='0.997'\nos.environ['DROP']='0.05'\nos.environ['SAVE_NAME']='model_c.pt'\nos.environ['LR']='3e-4'\nimport runpy\nrunpy.run_path('train.py', run_name='__main__')\n"}

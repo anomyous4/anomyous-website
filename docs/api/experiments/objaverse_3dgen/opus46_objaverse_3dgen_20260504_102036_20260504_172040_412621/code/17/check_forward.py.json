@@ -1,0 +1,1 @@
+{"path":"check_forward.py","iteration":17,"content":"import sys\nsys.path.insert(0, '/opt/triposr')\n\nimport inspect\n\n# Read the _forward method source\nwith open('/opt/triposr/tsr/models/nerf_renderer.py', 'r') as f:\n    content = f.read()\n\nprint(content)\n"}

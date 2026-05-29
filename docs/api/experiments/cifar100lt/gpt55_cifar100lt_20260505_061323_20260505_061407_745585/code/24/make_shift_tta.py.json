@@ -1,0 +1,1 @@
+{"path":"make_shift_tta.py","iteration":24,"content":"import torch\nfrom pathlib import Path\n\nsrc = 'checkpoints/ensemble9_ep3.pt'\nout = 'checkpoints/ensemble9_shift_tta.pt'\nckpt = torch.load(src, map_location='cpu')\nckpt['tta_mode'] = 'shift'\nPath(out).parent.mkdir(parents=True, exist_ok=True)\ntorch.save(ckpt, out)\nprint(f'saved {out}')\n"}

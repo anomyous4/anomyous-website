@@ -1,0 +1,1 @@
+{"iteration":7,"data":[{"epoch":1,"step":101,"train_loss":null,"val_loss":null,"val_macro_f1":0.0019445803313138344},{"epoch":2,"step":202,"train_loss":null,"val_loss":null,"val_macro_f1":0.0022116747563443416}]}

@@ -1,0 +1,1 @@
+{"path":"save_dummy_checkpoint.py","iteration":2,"content":"import torch\nimport os\nos.makedirs('checkpoints', exist_ok=True)\ntorch.save({'model_type': 'metricgan_plus_pretrained', 'note': 'uses pretrained model from speechbrain'}, 'checkpoints/best.pt')\nprint('Dummy checkpoint saved')"}

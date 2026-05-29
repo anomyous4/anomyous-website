@@ -1,0 +1,1 @@
+{"path":"read_forward.py","iteration":19,"content":"import sys\nsys.path.insert(0, '/opt/triposr')\n\n# Read the full nerf_renderer.py source\nwith open('/opt/triposr/tsr/models/nerf_renderer.py', 'r') as f:\n    content = f.read()\n\nprint(content)\n"}

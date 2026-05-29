@@ -1,0 +1,1 @@
+{"path":"README.txt","iteration":1,"content":"ClimSim baseline with residual MLP. Train saves checkpoints/best.pt. Predict contract uses scoring_input.npy and writes output json plus predictions npy."}

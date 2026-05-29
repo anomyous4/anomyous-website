@@ -1,0 +1,1 @@
+{"path":"local_eval_data/eval_config.json","iteration":11,"content":"{\n  \"eval_envs_seen\": [\"MiniGrid-FourRooms-v0\", \"MiniGrid-KeyCorridorS3R3-v0\", \"MiniGrid-LockedRoom-v0\"],\n  \"eval_envs_unseen\": [\"MiniGrid-DoorKey-16x16-v0\", \"MiniGrid-MultiRoom-N6-v0\", \"MiniGrid-Fetch-8x8-N3-v0\"],\n  \"episodes_per_env\": 1,\n  \"seed_start\": 0,\n  \"seed_end\": 0\n}\n"}

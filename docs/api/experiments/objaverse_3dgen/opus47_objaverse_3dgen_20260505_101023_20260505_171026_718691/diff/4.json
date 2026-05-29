@@ -1,0 +1,1 @@
+{"iteration":4,"prev_iteration":3,"diffs":[{"filename":"check_tsr.py","status":"added","added_lines":5,"removed_lines":0,"diff":"--- a/check_tsr.py\n+++ b/check_tsr.py\n@@ -0,0 +1,5 @@\n+import sys\n\n+sys.path.insert(0, '/opt/triposr')\n\n+import inspect\n\n+from tsr import utils\n\n+print(inspect.getsource(utils.get_spherical_cameras))\n"}]}

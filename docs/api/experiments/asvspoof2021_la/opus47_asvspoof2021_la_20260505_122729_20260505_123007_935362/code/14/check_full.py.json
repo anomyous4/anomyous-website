@@ -1,0 +1,1 @@
+{"path":"check_full.py","iteration":14,"content":"import os\nfor f in ['train.py', 'data.py', 'model.py', 'predict.py']:\n    if os.path.exists(f):\n        print('=== ' + f + ' ===')\n        with open(f) as fh:\n            content = fh.read()\n        print(content)\n        print()\n"}

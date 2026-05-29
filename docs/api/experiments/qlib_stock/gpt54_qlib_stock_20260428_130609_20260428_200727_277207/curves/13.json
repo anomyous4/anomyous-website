@@ -1,0 +1,1 @@
+{"iteration":13,"data":[{"step":1,"ic_mean":0.0383825598752332,"rank_ic_mean":0.03724169834579955,"icir":0.22965404642094284,"total_days":243,"tuned_weight_ic":0.0383825598752332,"tuned_weights":{"lgb":1.0,"cat":0.0,"ridge":0.0}}]}

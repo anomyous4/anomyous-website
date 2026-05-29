@@ -1,0 +1,1 @@
+{"path":"local_eval/eval_config.json","iteration":3,"content":"{\"tasks\": [{\"task_id\": \"h1hand-walk-v0\", \"obs_dim\": 151, \"action_dim\": 61, \"max_episode_steps\": 50, \"success_bar\": 700, \"info_has_success\": false, \"episodes\": 1, \"seeds\": [0]}]}"}

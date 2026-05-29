@@ -1,0 +1,1 @@
+{"path":"av/audio/format.pxd","iteration":24,"content":"cimport libav as lib\n\n\ncdef class AudioFormat:\n    cdef lib.AVSampleFormat sample_fmt\n\ncdef AudioFormat get_audio_format(lib.AVSampleFormat format)\n"}

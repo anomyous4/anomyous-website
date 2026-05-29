@@ -1,0 +1,1 @@
+{"path":"inspect_nerf.py","iteration":18,"content":"import sys\nimport inspect\nsys.path.insert(0, '/opt/triposr')\nfrom tsr.models.nerf_renderer import NeRFRenderer\n\nwith open(\"nerf_source.py\", \"w\") as f:\n    f.write(inspect.getsource(NeRFRenderer.forward))\n    f.write(\"\\n\")\n    f.write(inspect.getsource(NeRFRenderer._forward))\n\nprint(\"Saved nerf_source.py\")\n"}

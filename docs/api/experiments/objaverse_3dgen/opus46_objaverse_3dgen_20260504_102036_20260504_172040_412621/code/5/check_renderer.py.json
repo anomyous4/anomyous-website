@@ -1,0 +1,1 @@
+{"path":"check_renderer.py","iteration":5,"content":"import sys\nsys.path.insert(0, '/opt/triposr')\nimport inspect\nfrom tsr.models.nerf_renderer import NeRFRenderer\n\n# Print the full forward and _forward methods\nprint(\"=== forward ===\")\nprint(inspect.getsource(NeRFRenderer.forward))\nprint(\"\\n=== _forward ===\")\nprint(inspect.getsource(NeRFRenderer._forward))\n"}

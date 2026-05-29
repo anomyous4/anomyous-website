@@ -1,0 +1,1 @@
+{"path":"av/_core.pyi","iteration":24,"content":"from typing import TypedDict\n\nclass _Meta(TypedDict):\n    version: tuple[int, int, int]\n    configuration: str\n    license: str\n\nlibrary_meta: dict[str, _Meta]\nlibrary_versions: dict[str, tuple[int, int, int]]\nffmpeg_version_info: str\n\ntime_base: int\n"}

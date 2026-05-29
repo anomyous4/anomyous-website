@@ -1,0 +1,1 @@
+{"path":"view.py","iteration":15,"content":"with open('model.py') as f:\n    print(f.read())\nprint('=====DATA=====')\nwith open('data.py') as f:\n    print(f.read())\n"}

@@ -1,0 +1,1 @@
+{"path":"check_triposr4.py","iteration":10,"content":"import sys\nsys.path.insert(0, '/opt/triposr')\nimport inspect\nfrom tsr.utils import get_spherical_cameras\nprint('get_spherical_cameras source:')\nprint(inspect.getsource(get_spherical_cameras))\n\n# Also check TSR.render\nfrom tsr.system import TSR\nprint('\\nTSR.render source:')\nprint(inspect.getsource(TSR.render))\n"}

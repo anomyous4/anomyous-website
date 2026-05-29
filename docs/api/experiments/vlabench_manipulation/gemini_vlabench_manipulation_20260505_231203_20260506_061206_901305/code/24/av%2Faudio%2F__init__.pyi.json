@@ -1,0 +1,1 @@
+{"path":"av/audio/__init__.pyi","iteration":24,"content":"from typing import Literal\n\nfrom .frame import AudioFrame\nfrom .stream import AudioStream\n\n_AudioCodecName = Literal[\n    \"aac\",\n    \"libopus\",\n    \"mp2\",\n    \"mp3\",\n    \"pcm_alaw\",\n    \"pcm_mulaw\",\n    \"pcm_s16le\",\n]\n\n__all__ = (\"AudioFrame\", \"AudioStream\")\n"}

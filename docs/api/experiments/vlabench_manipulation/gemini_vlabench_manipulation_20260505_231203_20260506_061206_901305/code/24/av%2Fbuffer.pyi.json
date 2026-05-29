@@ -1,0 +1,1 @@
+{"path":"av/buffer.pyi","iteration":24,"content":"# When Python 3.12 becomes our lowest supported version, we could make this\n# class inherit `collections.abc.Buffer`.\n\nclass Buffer:\n    buffer_size: int\n    buffer_ptr: int\n    def update(self, input: bytes) -> None: ...\n    def __buffer__(self, flags: int) -> memoryview: ...\n    def __bytes__(self) -> bytes: ...\n"}

@@ -1,0 +1,1 @@
+{"iteration":20,"prev_iteration":19,"diffs":[{"filename":"check_train.py","status":"modified","added_lines":4,"removed_lines":1,"diff":"--- a/check_train.py\n+++ b/check_train.py\n@@ -1,2 +1,5 @@\n s=open('train.py').read()\n\n-print(s)\n\n+import re\n\n+# show args section\n\n+idx=s.find('argparse')\n\n+print(s[idx:idx+2500])\n"}]}

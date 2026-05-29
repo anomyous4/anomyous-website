@@ -1,0 +1,1 @@
+{"path":"requirements.txt","iteration":3,"content":"peft==0.13.2\ntokenizers>=0.15.2\ntransformers>=4.40.0\ntrl==0.12.2\nbitsandbytes==0.45.5\ndatasets>=2.20.0\ntorch>=2.0.0\naccelerate>=0.30.0"}

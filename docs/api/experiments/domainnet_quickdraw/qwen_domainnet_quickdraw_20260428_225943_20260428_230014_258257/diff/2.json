@@ -1,0 +1,1 @@
+{"iteration":2,"prev_iteration":1,"diffs":[{"filename":"model.py","status":"modified","added_lines":2,"removed_lines":0,"diff":"--- a/model.py\n+++ b/model.py\n@@ -13,3 +13,5 @@\n         num_features = self.backbone.fc.in_features\n\n         self.backbone.fc = nn.Linear(num_features, num_classes)\n\n         \n\n+    def forward(self, x):\n\n+        return self.backbone(x)"}]}

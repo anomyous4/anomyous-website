@@ -1,0 +1,1 @@
+{"iteration":1,"data":[{"step":59,"epoch":0.0,"train_loss":2.510854774222014,"train_acc":0.3129196884633391},{"step":118,"epoch":1.0,"train_loss":1.739261643463266,"train_acc":0.5345151759574018},{"step":177,"epoch":2.0,"train_loss":1.1508234602899727,"train_acc":0.647864625270156},{"step":236,"epoch":3.0,"train_loss":0.8732741012500878,"train_acc":0.7284448025785657}]}

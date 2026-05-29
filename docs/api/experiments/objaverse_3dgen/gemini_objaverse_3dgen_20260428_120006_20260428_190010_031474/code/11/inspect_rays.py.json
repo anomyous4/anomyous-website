@@ -1,0 +1,1 @@
+{"path":"inspect_rays.py","iteration":11,"content":"import sys\nimport inspect\nsys.path.insert(0, '/opt/triposr')\nimport tsr.utils\n\nprint('=== get_spherical_cameras ===')\nprint(inspect.getsource(tsr.utils.get_spherical_cameras))\nprint('\\n=== get_rays ===')\nprint(inspect.getsource(tsr.utils.get_rays))\n"}

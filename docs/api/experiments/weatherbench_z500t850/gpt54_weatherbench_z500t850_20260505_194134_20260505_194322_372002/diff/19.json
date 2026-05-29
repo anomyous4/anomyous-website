@@ -1,0 +1,1 @@
+{"iteration":19,"prev_iteration":18,"diffs":[{"filename":"local_testdata2/out_final2.json","status":"added","added_lines":1,"removed_lines":0,"diff":"--- a/local_testdata2/out_final2.json\n+++ b/local_testdata2/out_final2.json\n@@ -0,0 +1 @@\n+{\"predictions_file\": \"/workspace/local_testdata2/out_final2_predictions.npy\"}"}]}

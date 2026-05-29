@@ -1,0 +1,1 @@
+{"path":"av/audio/format.pyi","iteration":24,"content":"class AudioFormat:\n    name: str\n    bytes: int\n    bits: int\n    is_planar: bool\n    is_packed: bool\n    planar: AudioFormat\n    packed: AudioFormat\n    container_name: str\n\n    def __init__(self, name: str | AudioFormat) -> None: ...\n"}

@@ -1,0 +1,1 @@
+{"path":"transform_config.json","iteration":30,"content":"{\n  \"mode\": \"copy\",\n  \"view_map\": {},\n  \"bins\": [],\n  \"val_lpips_copy\": 0.2893512698144398,\n  \"val_lpips_selected\": 0.2893512698144398,\n  \"selected_name\": \"copy\"\n}"}

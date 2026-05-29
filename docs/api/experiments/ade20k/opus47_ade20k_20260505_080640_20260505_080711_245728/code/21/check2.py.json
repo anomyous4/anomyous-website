@@ -1,0 +1,1 @@
+{"path":"check2.py","iteration":21,"content":"for f in ['launch.py','train.py']:\n    print('==',f,'==')\n    s=open(f).read()\n    print(len(s))\n    print(s)\n"}

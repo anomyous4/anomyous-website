@@ -1,0 +1,1 @@
+{"path":"inspect_sft.py","iteration":11,"content":"import sys, inspect\nfrom trl import SFTTrainer, SFTConfig\nprint('SFTTrainer.__init__ signature:')\nprint(inspect.signature(SFTTrainer.__init__))\nprint('\\nSFTConfig signature:')\nprint(inspect.signature(SFTConfig.__init__))\n"}

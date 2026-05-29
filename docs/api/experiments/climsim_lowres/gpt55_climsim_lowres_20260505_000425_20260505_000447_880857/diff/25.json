@@ -1,0 +1,1 @@
+{"iteration":25,"prev_iteration":24,"diffs":[{"filename":"tmp_smoke2/out.json","status":"added","added_lines":1,"removed_lines":0,"diff":"--- a/tmp_smoke2/out.json\n+++ b/tmp_smoke2/out.json\n@@ -0,0 +1 @@\n+{\"predictions_file\": \"/workspace/tmp_smoke2/out_predictions.npy\"}"}]}

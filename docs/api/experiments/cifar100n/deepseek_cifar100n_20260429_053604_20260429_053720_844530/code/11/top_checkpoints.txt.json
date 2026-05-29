@@ -1,0 +1,1 @@
+{"path":"top_checkpoints.txt","iteration":11,"content":"epoch_35.pt 56.68 convnext_tiny\nswa_epoch_40.pt 56.30 convnext_tiny\nepoch_40.pt 56.20 convnext_tiny\nepoch_50.pt 56.10 convnext_tiny\nepoch_45.pt 56.08 convnext_tiny\n"}

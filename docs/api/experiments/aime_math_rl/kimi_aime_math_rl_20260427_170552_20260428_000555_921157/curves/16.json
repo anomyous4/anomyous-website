@@ -1,0 +1,1 @@
+{"iteration":16,"data":[{"step":1,"loss":0.1044,"grad_norm":0.14551612734794617,"learning_rate":1e-05,"epoch":0.3076923076923077},{"step":1,"train_runtime":6.1418,"train_samples_per_second":0.651,"train_steps_per_second":0.163,"total_flos":281832423521280.0,"train_loss":0.10443692654371262,"epoch":0.3076923076923077}]}

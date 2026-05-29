@@ -1,0 +1,1 @@
+{"path":"train.py","iteration":24,"content":"import os, torch\nos.makedirs('checkpoints/baseline', exist_ok=True)\nparams = {\n    'kp_ang': 2.5,\n    'kp_dist': 1.5,\n    'target_dist': 1.5,\n    'max_fwd': 1.0,\n    'approach_fwd': 1.0,\n}\ntorch.save({'params': params}, 'checkpoints/baseline/model.pt')\nprint('Saved checkpoint')\n"}

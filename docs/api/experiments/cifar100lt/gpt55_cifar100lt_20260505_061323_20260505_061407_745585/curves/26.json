@@ -1,0 +1,1 @@
+{"iteration":26,"data":[{"step":84,"seed":101,"epoch":1,"val_acc":0.5},{"step":168,"seed":101,"epoch":2,"val_acc":0.5750000000000001},{"step":252,"seed":101,"epoch":3,"val_acc":0.5830000000000001},{"step":84,"seed":202,"epoch":1,"val_acc":0.4800000000000001},{"step":168,"seed":202,"epoch":2,"val_acc":0.5559999999999999},{"step":252,"seed":202,"epoch":3,"val_acc":0.57}]}

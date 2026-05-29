@@ -1,0 +1,1 @@
+{"iteration":24,"data":[{"step":750,"epoch":1,"train_loss":3.104281101067861,"val_acc":0.571},{"step":1500,"epoch":2,"train_loss":2.4888479131062824,"val_acc":0.59},{"step":2250,"epoch":3,"train_loss":2.2976942702929177,"val_acc":0.5915},{"step":3000,"epoch":4,"train_loss":2.1301189630826314,"val_acc":0.5945}]}

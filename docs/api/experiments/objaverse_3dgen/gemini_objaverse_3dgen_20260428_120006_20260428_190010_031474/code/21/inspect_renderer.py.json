@@ -1,0 +1,1 @@
+{"path":"inspect_renderer.py","iteration":21,"content":"import sys\nimport inspect\nsys.path.insert(0, '/opt/triposr')\nfrom tsr.system import TSR\n\nmodel = TSR.from_pretrained(\n    '/models/triposr',\n    config_name='config.yaml',\n    weight_name='model.ckpt',\n)\n\nprint(model.renderer.__class__.__name__)\nprint(inspect.getsource(model.renderer.__class__))\n"}

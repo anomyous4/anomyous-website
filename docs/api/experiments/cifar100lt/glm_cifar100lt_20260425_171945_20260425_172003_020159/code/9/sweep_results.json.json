@@ -1,0 +1,1 @@
+{"path":"sweep_results.json","iteration":9,"content":"{\n  \"best_s1\": {\n    \"alpha\": 0,\n    \"bal_acc\": 0.8260000000000001,\n    \"tau\": 0,\n    \"tau_bal_acc\": 0.8260000000000001,\n    \"combo\": [\n      0,\n      0,\n      0.8260000000000001\n    ]\n  },\n  \"best\": {\n    \"alpha\": 0,\n    \"bal_acc\": 0.8199999999999998\n  }\n}"}

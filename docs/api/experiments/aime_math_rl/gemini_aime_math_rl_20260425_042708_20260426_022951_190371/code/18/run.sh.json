@@ -1,0 +1,1 @@
+{"path":"run.sh","iteration":18,"content":"#!/bin/bash\nset -e\n\npython kill_gpu_processes.py\n\nrm -rf current_adapter current_merged ckpt_merged\n\npython init_adapter.py\n\npython master.py\n\npython merge.py\n"}

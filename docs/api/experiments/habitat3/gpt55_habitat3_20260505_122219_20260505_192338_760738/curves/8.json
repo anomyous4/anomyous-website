@@ -1,0 +1,1 @@
+{"iteration":8,"data":[{"step":1,"nav_seek_success":0.0,"safe_steps":0,"loss":0.0},{"step":0,"safe_steps":81,"nav_to_pos_success":0.0,"loss":0.0},{"step":1,"safe_steps":86,"nav_to_pos_success":0.0,"loss":0.0},{"step":2,"safe_steps":27,"nav_to_pos_success":1.0,"loss":0.0}]}

@@ -1,0 +1,1 @@
+{"path":"check_ckpt.py","iteration":13,"content":"import torch\nckpt = torch.load('checkpoints/best_v2_seed42.pt', map_location='cpu', weights_only=False)\nprint('Keys:', list(ckpt.keys()))\nfor k, v in ckpt.items():\n    if k != 'model_state_dict':\n        print(f'{k}: {v}')\n"}

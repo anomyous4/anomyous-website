@@ -1,0 +1,1 @@
+{"path":"frontier_tuned_local_eval.json","iteration":15,"content":"{\"exploration_score\": 0.10185562196188179, \"success_rate\": 0.125, \"explored_rate\": 0.7994579856790098, \"per_type\": {\"room\": {\"success_rate\": 0.125, \"explored_rate\": 0.7994579856790098}}}"}

@@ -1,0 +1,1 @@
+{"path":"fix_train.py","iteration":15,"content":"p='train.py'\ns=open(p).read()\nif 'ann = ann.long()' not in s:\n    s = s.replace('ann = ann.to(device, non_blocking=True)', 'ann = ann.to(device, non_blocking=True).long()')\n    open(p,'w').write(s)\nprint('patched')\nprint(open(p).read()[-200:])\n"}

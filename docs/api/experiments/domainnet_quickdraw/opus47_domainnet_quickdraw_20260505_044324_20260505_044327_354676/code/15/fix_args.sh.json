@@ -1,0 +1,1 @@
+{"path":"fix_args.sh","iteration":15,"content":"sed -i \"s|default='clip_vit_b16'|default='vit_base_patch16_clip_224.openai'|\" train.py\n"}

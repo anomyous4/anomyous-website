@@ -1,0 +1,1 @@
+{"iteration":10,"data":[{"step":0,"train_loss":0.28087180483021906,"val_auc":1.0},{"step":1,"train_loss":0.005848090490326285,"val_auc":1.0},{"step":2,"train_loss":0.0021264940300690276,"val_auc":1.0},{"step":3,"train_loss":0.001600635763523834,"val_auc":1.0},{"step":4,"train_loss":0.001350552824858044,"val_auc":1.0},{"step":5,"train_loss":0.0011751615309289524,"val_auc":1.0}]}

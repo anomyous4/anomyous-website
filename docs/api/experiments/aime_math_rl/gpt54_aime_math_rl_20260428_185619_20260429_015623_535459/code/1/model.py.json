@@ -1,0 +1,1 @@
+{"path":"model.py","iteration":1,"content":"from transformers import AutoModelForCausalLM\n\ndef load_base(model_name='Qwen/Qwen3-4B', dtype='auto'):\n    return AutoModelForCausalLM.from_pretrained(model_name, dtype=dtype)\n"}

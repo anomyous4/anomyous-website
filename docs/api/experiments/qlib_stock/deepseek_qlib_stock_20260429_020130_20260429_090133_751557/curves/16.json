@@ -1,0 +1,1 @@
+{"iteration":16,"data":[{"model_idx":0,"boosting_type":"dart","val_ic":0.08276612444103636},{"model_idx":1,"boosting_type":"gbdt","val_ic":0.08753858840010918}]}

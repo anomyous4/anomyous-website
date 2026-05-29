@@ -1,0 +1,1 @@
+{"path":"optimal_weights.json","iteration":25,"content":"{\n  \"best_val_acc\": 0.9998,\n  \"weights\": {\n    \"mlp\": 0.0,\n    \"mc\": 1.0,\n    \"ncm\": 0.0,\n    \"swa\": 0.0\n  },\n  \"best_temp_acc\": 0.9998,\n  \"best_temps\": [\n    0.5,\n    0.5,\n    0.5,\n    0.5\n  ]\n}"}

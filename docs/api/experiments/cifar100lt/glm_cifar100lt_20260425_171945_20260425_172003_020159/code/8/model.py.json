@@ -1,0 +1,1 @@
+{"path":"model.py","iteration":8,"content":"import timm\nimport torch\nimport torch.nn as nn\n\n\ndef create_model(num_classes=100, pretrained=True, drop_path_rate=0.0):\n    model = timm.create_model(\n        'convnext_tiny.fb_in22k_ft_in1k',\n        pretrained=pretrained,\n        num_classes=num_classes,\n        drop_path_rate=drop_path_rate,\n    )\n    return model\n"}

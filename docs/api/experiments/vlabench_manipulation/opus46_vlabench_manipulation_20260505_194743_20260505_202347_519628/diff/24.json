@@ -1,0 +1,1 @@
+{"iteration":24,"prev_iteration":23,"diffs":[{"filename":"read_full_predict.py","status":"added","added_lines":5,"removed_lines":0,"diff":"--- a/read_full_predict.py\n+++ b/read_full_predict.py\n@@ -0,0 +1,5 @@\n+#!/usr/bin/env python\n\n+import os\n\n+with open('predict.py', 'r') as f:\n\n+    content = f.read()\n\n+print(content)\n"}]}

@@ -1,0 +1,1 @@
+{"path":"model.py","iteration":1,"content":"import torch.nn as nn\nfrom torchvision.models import resnet50, ResNet50_Weights\n\ndef create_model(pretrained=True):\n    weights = ResNet50_Weights.IMAGENET1K_V2 if pretrained else None\n    model = resnet50(weights=weights)\n    model.fc = nn.Linear(model.fc.in_features, 100)\n    return model"}

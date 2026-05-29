@@ -1,0 +1,1 @@
+{"path":"model_3d_config.json","iteration":15,"content":"{\"max_atoms\": 29, \"hidden_dim\": 128, \"n_rbf\": 20, \"num_layers\": 3, \"output_dim\": 1}"}

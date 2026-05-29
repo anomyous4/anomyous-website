@@ -1,0 +1,1 @@
+{"path":"av/audio/plane.pxd","iteration":24,"content":"from av.plane cimport Plane\n\n\ncdef class AudioPlane(Plane):\n    cdef readonly size_t buffer_size\n    cdef size_t _buffer_size(self)\n"}

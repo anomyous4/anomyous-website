@@ -1,0 +1,1 @@
+{"path":"check_logs.py","iteration":7,"content":"import os, re\nfor f in sorted(os.listdir('logs')):\n    p = os.path.join('logs', f)\n    with open(p) as fh:\n        content = fh.read()\n    # Print last 2000 chars\n    print(f'=== {f} ===')\n    print(content[-1500:])\n    print()\n"}

@@ -1,0 +1,1 @@
+{"path":"model.py","iteration":9,"content":"import torchvision\n\ndef get_model(num_classes=150, pretrained_backbone=True):\n    model = torchvision.models.segmentation.deeplabv3_resnet50(\n        weights=None,\n        weights_backbone='IMAGENET1K_V2' if pretrained_backbone else None,\n        num_classes=num_classes,\n    )\n    return model\n"}

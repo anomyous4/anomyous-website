@@ -1,0 +1,1 @@
+{"path":"local_test_eval/eval_config.json","iteration":3,"content":"{\n  \"test_period\": [\"2022-01-01\", \"2023-12-31\"],\n  \"universe\": \"csi300\",\n  \"feature_set\": \"Alpha158\"\n}\n"}

@@ -1,0 +1,1 @@
+{"path":"inspect_render.py","iteration":2,"content":"import sys\nimport inspect\nsys.path.insert(0, '/opt/triposr')\nfrom tsr.system import TSR\n\nprint('=== TSR.render ===')\nprint(inspect.getsource(TSR.render))\n"}

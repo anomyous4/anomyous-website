@@ -1,0 +1,1 @@
+{"path":"inspect_source.py","iteration":16,"content":"from pathlib import Path\nlines = Path('predict.py').read_text().splitlines()\nfor start, end in [(1,120),(121,240)]:\n    print(f'--- lines {start}-{end} ---')\n    for i in range(start-1, min(end, len(lines))):\n        print(f'{i+1:04d}: {lines[i]}')\n"}

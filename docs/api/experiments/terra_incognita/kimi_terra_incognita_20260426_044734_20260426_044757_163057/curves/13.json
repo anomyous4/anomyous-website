@@ -1,0 +1,1 @@
+{"iteration":13,"data":[{"step":0,"domain":0,"train_bal_acc":0.8953888084964465,"n_samples":7810},{"step":1,"domain":1,"train_bal_acc":0.8667568552610632,"n_samples":3212},{"step":2,"domain":2,"train_bal_acc":0.8660820838716965,"n_samples":4892},{"step":3,"val_bal_acc":0.5931598291773368}]}

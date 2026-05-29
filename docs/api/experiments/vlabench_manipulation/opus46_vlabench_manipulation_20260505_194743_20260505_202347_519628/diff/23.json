@@ -1,0 +1,1 @@
+{"iteration":23,"prev_iteration":22,"diffs":[{"filename":"read_predict.py","status":"added","added_lines":4,"removed_lines":0,"diff":"--- a/read_predict.py\n+++ b/read_predict.py\n@@ -0,0 +1,4 @@\n+import os\n\n+with open('predict.py', 'r') as f:\n\n+    content = f.read()\n\n+print(content)\n"}]}

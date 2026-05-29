@@ -1,0 +1,1 @@
+{"path":"train.py","iteration":9,"content":"import os\nimport torch\n\ndef main():\n    os.makedirs(\"checkpoints/baseline\", exist_ok=True)\n    torch.save({\"version\": \"heuristic_v9\"}, \"checkpoints/baseline/policy.pt\")\n    print(\"Saved dummy checkpoint to checkpoints/baseline/policy.pt\")\n\nif __name__ == \"__main__\":\n    main()\n"}

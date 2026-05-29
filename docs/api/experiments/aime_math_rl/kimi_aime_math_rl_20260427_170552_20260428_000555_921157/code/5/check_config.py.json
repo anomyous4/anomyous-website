@@ -1,0 +1,1 @@
+{"path":"check_config.py","iteration":5,"content":"import trl\nprint('TRL version:', trl.__version__)\nfrom trl import GRPOConfig\nimport inspect\nprint('GRPOConfig signature:')\nprint(inspect.signature(GRPOConfig.__init__))\n"}

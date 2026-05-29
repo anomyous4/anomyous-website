@@ -1,0 +1,1 @@
+{"path":"av/buffer.pxd","iteration":24,"content":"\ncdef class Buffer:\n\n    cdef size_t _buffer_size(self)\n    cdef void* _buffer_ptr(self)\n    cdef bint _buffer_writable(self)\n"}

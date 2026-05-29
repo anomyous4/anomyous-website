@@ -1,0 +1,1 @@
+{"iteration":2,"prev_iteration":1,"diffs":[{"filename":"ckpt_base/info.json","status":"added","added_lines":1,"removed_lines":0,"diff":"--- a/ckpt_base/info.json\n+++ b/ckpt_base/info.json\n@@ -0,0 +1 @@\n+{\"model\": \"base\"}\n"}]}

@@ -1,0 +1,1 @@
+{"path":"av/audio/plane.pyi","iteration":24,"content":"from av.plane import Plane\n\nclass AudioPlane(Plane):\n    buffer_size: int\n"}

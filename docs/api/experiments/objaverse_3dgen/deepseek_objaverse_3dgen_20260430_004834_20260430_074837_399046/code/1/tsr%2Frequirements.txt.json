@@ -1,0 +1,1 @@
+{"path":"tsr/requirements.txt","iteration":1,"content":"omegaconf==2.3.0\nPillow==10.1.0\neinops==0.7.0\ngit+https://github.com/tatsy/torchmcubes.git\ntransformers==4.35.0\ntrimesh==4.0.5\nrembg\nhuggingface-hub\nimageio[ffmpeg]\ngradio\nxatlas==0.0.9\nmoderngl==5.10.0\n"}

@@ -1,0 +1,1 @@
+{"path":"check.py","iteration":17,"content":"import torch\nimport os\nfor n in sorted(os.listdir('checkpoints')):\n    p = os.path.join('checkpoints', n)\n    c = torch.load(p, map_location='cpu', weights_only=False)\n    print(n, c.get('val_bal'), c.get('arch'), c.get('epoch'), c.get('seed'))\n"}

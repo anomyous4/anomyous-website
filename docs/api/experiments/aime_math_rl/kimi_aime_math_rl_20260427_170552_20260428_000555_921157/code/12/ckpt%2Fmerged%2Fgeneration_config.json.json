@@ -1,0 +1,1 @@
+{"path":"ckpt/merged/generation_config.json","iteration":12,"content":"{\n  \"do_sample\": true,\n  \"eos_token_id\": [\n    151645,\n    151643\n  ],\n  \"max_new_tokens\": 4096,\n  \"pad_token_id\": 151643,\n  \"temperature\": 0.6,\n  \"top_k\": 20,\n  \"top_p\": 0.95,\n  \"transformers_version\": \"4.57.6\"\n}\n"}

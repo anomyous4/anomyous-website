@@ -1,0 +1,1 @@
+{"path":"save_a.py","iteration":11,"content":"import shutil\nshutil.copy('checkpoints/best.pt', 'checkpoints/model_a.pt')\nprint('saved model_a')\n"}

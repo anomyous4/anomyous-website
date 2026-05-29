@@ -1,0 +1,1 @@
+{"path":"check_train.py","iteration":19,"content":"s=open('train.py').read()\nprint(s)\n"}

@@ -1,0 +1,1 @@
+{"path":"check_train.py","iteration":20,"content":"s=open('train.py').read()\nimport re\n# show args section\nidx=s.find('argparse')\nprint(s[idx:idx+2500])\n"}

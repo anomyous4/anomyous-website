@@ -1,0 +1,1 @@
+{"path":"run.sh","iteration":3,"content":"#!/bin/bash\nset -e\nexport CUDA_VISIBLE_DEVICES=0,1,2,3\ntorchrun --nproc_per_node=2 train_rl.py\npython merge.py\n"}

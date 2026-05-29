@@ -1,0 +1,1 @@
+{"path":"ensemble_train.py","iteration":13,"content":"import os, shutil, subprocess, sys\n# Save current best as model A\nif os.path.exists('checkpoints/best.pt'):\n    shutil.copy('checkpoints/best.pt', 'checkpoints/best_a.pt')\n    print('Saved best_a.pt')\n# Now train new model with different seed\n"}

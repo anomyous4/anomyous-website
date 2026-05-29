@@ -1,0 +1,1 @@
+{"iteration":11,"prev_iteration":10,"diffs":[{"filename":"save_a.py","status":"added","added_lines":3,"removed_lines":0,"diff":"--- a/save_a.py\n+++ b/save_a.py\n@@ -0,0 +1,3 @@\n+import shutil\n\n+shutil.copy('checkpoints/best.pt', 'checkpoints/model_a.pt')\n\n+print('saved model_a')\n"}]}

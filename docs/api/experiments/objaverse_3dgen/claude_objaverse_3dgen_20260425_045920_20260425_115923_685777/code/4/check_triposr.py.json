@@ -1,0 +1,1 @@
+{"path":"check_triposr.py","iteration":4,"content":"import sys\nsys.path.insert(0, '/opt/triposr')\nimport inspect\nfrom tsr.system import TSR\nprint(inspect.getsource(TSR.render))\n"}

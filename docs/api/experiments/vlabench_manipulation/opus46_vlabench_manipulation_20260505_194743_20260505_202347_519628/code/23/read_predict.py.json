@@ -1,0 +1,1 @@
+{"path":"read_predict.py","iteration":23,"content":"import os\nwith open('predict.py', 'r') as f:\n    content = f.read()\nprint(content)\n"}

@@ -1,0 +1,1 @@
+{"path":"check_trl.py","iteration":3,"content":"import trl\nprint('TRL version:', trl.__version__)\nfrom trl import GRPOTrainer\nimport inspect\nprint('GRPOTrainer signature:')\nprint(inspect.signature(GRPOTrainer.__init__))\n"}

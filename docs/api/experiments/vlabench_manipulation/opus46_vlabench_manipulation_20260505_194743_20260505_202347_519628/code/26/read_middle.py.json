@@ -1,0 +1,1 @@
+{"path":"read_middle.py","iteration":26,"content":"with open('predict.py', 'r') as f:\n    lines = f.readlines()\n\n# Print lines 80-300\nfor i in range(80, min(300, len(lines))):\n    print(f'{i:4d}: {lines[i]}', end='')\n"}

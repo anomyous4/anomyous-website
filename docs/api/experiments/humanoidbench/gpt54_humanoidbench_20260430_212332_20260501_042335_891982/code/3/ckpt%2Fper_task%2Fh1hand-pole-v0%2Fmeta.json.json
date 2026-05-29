@@ -1,0 +1,1 @@
+{"path":"ckpt/per_task/h1hand-pole-v0/meta.json","iteration":3,"content":"{\n  \"task_id\": \"h1hand-pole-v0\",\n  \"total_timesteps\": 100000,\n  \"n_envs\": 8,\n  \"seed\": 500,\n  \"elapsed_sec\": 553.82,\n  \"obs_space\": [\n    151\n  ],\n  \"action_space\": [\n    61\n  ]\n}"}

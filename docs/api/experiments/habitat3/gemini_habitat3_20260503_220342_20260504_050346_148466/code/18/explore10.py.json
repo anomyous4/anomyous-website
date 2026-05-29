@@ -1,0 +1,1 @@
+{"path":"explore10.py","iteration":18,"content":"import os\nos.chdir('/opt/habitat-lab-src')\nwith open(\"habitat-lab/habitat/config/benchmark/multi_agent/hssd_spot_human_social_nav.yaml\", \"r\") as f:\n    lines = f.readlines()\n    for i in range(85, 115):\n        if i < len(lines):\n            print(f\"{i}: {lines[i].strip()}\")\n"}

@@ -1,0 +1,1 @@
+{"path":"train2.py","iteration":14,"content":"import os\nos.environ.setdefault('EPOCHS', '80')\nos.environ.setdefault('BS', '32')\nos.environ.setdefault('DROP', '0.3')\nos.environ.setdefault('LR', '1e-3')\nimport torch, numpy as np, random\nseed = int(os.environ.get('SEED', '7'))\ntorch.manual_seed(seed); np.random.seed(seed); random.seed(seed)\nexec(open('train.py').read())\n"}

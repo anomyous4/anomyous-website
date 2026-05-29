@@ -1,0 +1,1 @@
+{"iteration":28,"prev_iteration":27,"diffs":[{"filename":"check_pred.py","status":"added","added_lines":1,"removed_lines":0,"diff":"--- a/check_pred.py\n+++ b/check_pred.py\n@@ -0,0 +1 @@\n+print(open('predict.py').read())\n"}]}

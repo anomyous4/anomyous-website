@@ -1,0 +1,1 @@
+{"path":"av/audio/stream.pxd","iteration":24,"content":"from av.packet cimport Packet\nfrom av.stream cimport Stream\n\nfrom .frame cimport AudioFrame\n\n\ncdef class AudioStream(Stream):\n    cpdef encode(self, AudioFrame frame=?)\n    cpdef decode(self, Packet packet=?)\n"}

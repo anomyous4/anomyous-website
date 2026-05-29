@@ -1,0 +1,1 @@
+{"path":"train.py","iteration":1,"content":"import os\nimport torch\n\ndef train():\n    os.makedirs('checkpoints', exist_ok=True)\n    torch.save({'dummy': True}, 'checkpoints/model.pt')\n    print('Dummy training finished.')\n\nif __name__ == '__main__':\n    train()\n"}

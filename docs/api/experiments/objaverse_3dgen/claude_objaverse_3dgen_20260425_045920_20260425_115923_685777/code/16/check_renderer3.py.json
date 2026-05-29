@@ -1,0 +1,1 @@
+{"path":"check_renderer3.py","iteration":16,"content":"import sys\nsys.path.insert(0, '/opt/triposr')\nimport inspect\n\n# Check nerf_renderer source\nwith open('/opt/triposr/tsr/models/nerf_renderer.py', 'r') as f:\n    content = f.read()\nprint('=== nerf_renderer.py ===')\nprint(content)\n"}

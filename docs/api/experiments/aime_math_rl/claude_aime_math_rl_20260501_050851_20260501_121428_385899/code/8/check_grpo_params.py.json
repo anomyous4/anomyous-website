@@ -1,0 +1,1 @@
+{"path":"check_grpo_params.py","iteration":8,"content":"#!/usr/bin/env python3\nimport inspect\nfrom trl import GRPOConfig\nparams = list(inspect.signature(GRPOConfig.__init__).parameters.keys())\nprint('All GRPOConfig params:')\nfor p in params:\n    print(' ', p)\n"}

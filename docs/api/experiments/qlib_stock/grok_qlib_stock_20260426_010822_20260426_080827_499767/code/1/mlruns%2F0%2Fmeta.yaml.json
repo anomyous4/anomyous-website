@@ -1,0 +1,1 @@
+{"path":"mlruns/0/meta.yaml","iteration":1,"content":"artifact_location: file:///workspace/mlruns/0\ncreation_time: 1777191116088\nexperiment_id: '0'\nlast_update_time: 1777191116088\nlifecycle_stage: active\nname: Default\ntrace_location: null\nworkspace: default\n"}

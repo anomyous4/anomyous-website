@@ -1,0 +1,1 @@
+{"path":"base_model/generation_config.json","iteration":13,"content":"{\n  \"bos_token_id\": 151643,\n  \"pad_token_id\": 151643,\n  \"do_sample\": true,\n  \"eos_token_id\": [\n    151645,\n    151643\n  ],\n  \"repetition_penalty\": 1.05,\n  \"temperature\": 0.000001,\n  \"transformers_version\": \"4.49.0\"\n}"}

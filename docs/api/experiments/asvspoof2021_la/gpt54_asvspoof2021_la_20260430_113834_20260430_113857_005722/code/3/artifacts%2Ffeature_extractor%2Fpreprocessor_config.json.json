@@ -1,0 +1,1 @@
+{"path":"artifacts/feature_extractor/preprocessor_config.json","iteration":3,"content":"{\n  \"do_normalize\": true,\n  \"feature_extractor_type\": \"Wav2Vec2FeatureExtractor\",\n  \"feature_size\": 1,\n  \"padding_side\": \"right\",\n  \"padding_value\": 0.0,\n  \"return_attention_mask\": false,\n  \"sampling_rate\": 16000\n}\n"}

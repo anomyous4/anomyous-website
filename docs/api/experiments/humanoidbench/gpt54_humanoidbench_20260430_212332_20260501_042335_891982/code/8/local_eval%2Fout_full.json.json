@@ -1,0 +1,1 @@
+{"path":"local_eval/out_full.json","iteration":8,"content":"{\"success_rate\": 0.0, \"mean_reward\": 20.9415, \"total_episodes\": 1, \"per_task\": {\"h1hand-walk-v0\": {\"success_rate\": 0.0, \"mean_reward\": 20.9415, \"n_episodes\": 1}}, \"per_episode\": [{\"task_id\": \"h1hand-walk-v0\", \"episode_id\": 0, \"seed\": 0, \"reward\": 20.9415, \"success\": 0}]}"}

@@ -1,0 +1,1 @@
+{"path":"ckpt/baseline/meta.json","iteration":1,"content":"{\"tasks\": [\"h1hand-walk-v0\", \"h1hand-stand-v0\", \"h1hand-run-v0\", \"h1hand-sit_simple-v0\", \"h1hand-balance_simple-v0\", \"h1hand-reach-v0\", \"h1hand-push-v0\", \"h1hand-pole-v0\", \"h1hand-door-v0\", \"h1hand-package-v0\"], \"max_obs_dim\": 173, \"obs_dim\": 183, \"elapsed_sec\": 178.31095218658447}"}

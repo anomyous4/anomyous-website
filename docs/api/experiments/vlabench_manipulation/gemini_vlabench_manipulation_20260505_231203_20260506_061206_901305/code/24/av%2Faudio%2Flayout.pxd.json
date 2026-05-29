@@ -1,0 +1,1 @@
+{"path":"av/audio/layout.pxd","iteration":24,"content":"cimport libav as lib\n\n\ncdef class AudioLayout:\n    cdef lib.AVChannelLayout layout\n    cdef _init(self, lib.AVChannelLayout layout)\n\ncdef AudioLayout get_audio_layout(lib.AVChannelLayout c_layout)\n"}

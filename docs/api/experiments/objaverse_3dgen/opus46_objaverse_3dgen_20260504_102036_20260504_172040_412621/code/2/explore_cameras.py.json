@@ -1,0 +1,1 @@
+{"path":"explore_cameras.py","iteration":2,"content":"import sys\nsys.path.insert(0, '/opt/triposr')\n\nimport inspect\nfrom tsr.utils import get_spherical_cameras\n\nprint(\"get_spherical_cameras signature:\", inspect.signature(get_spherical_cameras))\nprint(\"\\nSource:\")\nprint(inspect.getsource(get_spherical_cameras))\n"}

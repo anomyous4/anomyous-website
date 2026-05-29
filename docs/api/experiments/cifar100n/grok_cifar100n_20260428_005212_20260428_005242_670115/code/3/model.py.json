@@ -1,0 +1,1 @@
+{"path":"model.py","iteration":3,"content":"import timm\nimport torch.nn as nn\n\ndef create_model(pretrained=True):\n    model = timm.create_model('convnext_tiny.fb_in22k_ft_in1k', pretrained=pretrained, num_classes=100)\n    return model"}

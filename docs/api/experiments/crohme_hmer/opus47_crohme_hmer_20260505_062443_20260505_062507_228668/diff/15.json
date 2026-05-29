@@ -1,0 +1,1 @@
+{"iteration":15,"prev_iteration":14,"diffs":[{"filename":"view.py","status":"added","added_lines":5,"removed_lines":0,"diff":"--- a/view.py\n+++ b/view.py\n@@ -0,0 +1,5 @@\n+with open('model.py') as f:\n\n+    print(f.read())\n\n+print('=====DATA=====')\n\n+with open('data.py') as f:\n\n+    print(f.read())\n"}]}

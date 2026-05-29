@@ -1,0 +1,1 @@
+{"path":"test_imports3.py","iteration":7,"content":"import sys\nprint('Testing torch_geometric.data...', flush=True)\nfrom torch_geometric.data import Data\nprint('Data OK', flush=True)\nfrom torch_geometric.data import Batch\nprint('Batch OK', flush=True)\nprint('Done', flush=True)\n"}

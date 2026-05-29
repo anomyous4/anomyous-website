@@ -1,0 +1,1 @@
+{"path":"model.py","iteration":1,"content":"import timm\n\ndef build_model(num_classes=100, pretrained=True):\n    # Pre-downloaded in environment; no network needed\n    model = timm.create_model('convnext_tiny.fb_in22k_ft_in1k', pretrained=pretrained, num_classes=num_classes)\n    return model\n"}
